@@ -37,7 +37,7 @@ components that you want to enable, then copy all the entries from those compone
 e.g. for the hyprland component:
 
 ```sh
-git clone https://github.com/caelestia-dots/caelestia.git
+git clone https://github.com/yrpcaro/caelestia.git
 cd caelestia
 sudo pacman -S --needed hyprland xdg-desktop-portal-hyprland xdg-desktop-portal-gtk ttf-jetbrains-mono-nerd
 mkdir -p $XDG_CONFIG_HOME/hypr
@@ -189,13 +189,14 @@ You can find more information on configuring the shell and the CLI in their resp
 
 ### Applications
 
-| Keybind          | Action                                |
-| ---------------- | ------------------------------------- |
-| `Super + T`      | Terminal (default: foot)              |
-| `Super + W`      | Browser (default: firefox)            |
-| `Super + C`      | Editor (default: codium)              |
-| `Super + E`      | File explorer (default: thunar)       |
-| `Ctrl + Alt + V` | Audio settings (default: pwvucontrol) |
+| Keybind               | Action                                 |
+| --------------------- | -------------------------------------- |
+| `Super + Return`      | Terminal (default: foot)               |
+| `Super + W`           | Browser (default: firefox)             |
+| `Super + C`           | Editor (default: zeditor)              |
+| `Super + E`           | GUI File explorer (default: thunar)    |
+| `Super + Shift + E`   | Terminal file explorer (default: yazi) |
+| `Ctrl + Alt + V`      | Audio settings (default: pwvucontrol)  |
 
 ---
 
@@ -257,5 +258,5 @@ You can find more information on configuring the shell and the CLI in their resp
 | `Ctrl + Super + Alt + R`   | Restart shell |
 | `Ctrl + Super + Shift + R` | Kill shell    |
 
-[shell-repo]: https://github.com/caelestia-dots/shell
-[cli-repo]: https://github.com/caelestia-dots/cli
+[shell-repo]: https://github.com/yrpcaro/shell
+[cli-repo]: https://github.com/yrpcaro/cli
