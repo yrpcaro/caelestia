@@ -8,8 +8,9 @@ return {
     -- Apps
     terminal                   = "foot",
     browser                    = "firefox",
-    editor                     = "codium",
+    editor                     = "zeditor",
     fileExplorer               = "thunar",
+    terminalFileExplorer       = "foot -a yazi -T yazi yazi",
     audioSettings              = "pwvucontrol",
 
     -- Touchpad
@@ -110,10 +111,11 @@ return {
     kbTodoWs                   = "SUPER + R",
 
     -- Apps
-    kbTerminal                 = "SUPER + T",
+    kbTerminal                 = "SUPER + Return",
     kbBrowser                  = "SUPER + W",
     kbEditor                   = "SUPER + C",
     kbFileExplorer             = "SUPER + E",
+    kbTerminalFileExplorer     = "SUPER + SHIFT + E",
     kbAudioSettings            = "CTRL + ALT + V",
 
     -- Utilities

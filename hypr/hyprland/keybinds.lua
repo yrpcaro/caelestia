@@ -161,6 +161,7 @@ create_bind(vars.kbTerminal, hl.dsp.exec_cmd(vars.terminal))
 create_bind(vars.kbBrowser, hl.dsp.exec_cmd(vars.browser))
 create_bind(vars.kbEditor, hl.dsp.exec_cmd(vars.editor))
 create_bind(vars.kbFileExplorer, hl.dsp.exec_cmd(vars.fileExplorer))
+create_bind(vars.kbTerminalFileExplorer, hl.dsp.exec_cmd(vars.terminalFileExplorer))
 create_bind(vars.kbAudioSettings, hl.dsp.exec_cmd(vars.audioSettings))
 
 -- Utilities

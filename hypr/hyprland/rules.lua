@@ -61,7 +61,7 @@ hl.window_rule({
 
 -- Opaque apps
 tagged_rule(opaque_tag, {
-    "foot",                          -- Terminal
+    "foot|btm|yazi|gitui",           -- Terminal / TUI apps
     "equibop",                       -- Discord client
     "org.quickshell",                -- Quickshell
     "feh|imv|swappy",                -- Image viewers
@@ -132,7 +132,7 @@ tagged_rule(xwl_popup_tag, {
 
 
 -- Special workspaces
-tagged_rule(system_monitor_tag, { "btop" }, "class")
+tagged_rule(system_monitor_tag, { "btm", "btop" }, "class")
 tagged_rule(music_player_tag, {
     "feishin|Supersonic|Plexamp",                                  -- Self hosted
     "Spotify",                                                     -- Spotify

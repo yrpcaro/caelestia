@@ -1,0 +1,14 @@
+theme = "default"
+
+[editor]
+line-number = "relative"
+cursorline = true
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false

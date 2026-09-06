@@ -6,11 +6,16 @@ if status is-interactive
     command -v direnv &> /dev/null && direnv hook fish | source
     command -v zoxide &> /dev/null && zoxide init fish --cmd cd | source
 
-    # Better ls
+    # Core CLI utilities (Rust)
     command -v eza &> /dev/null && alias ls='eza --icons --group-directories-first -1'
+    command -v bat &> /dev/null && alias cat='bat'
+    command -v rg &> /dev/null && alias grep='rg'
+    command -v fd &> /dev/null && alias find='fd'
+    command -v dust &> /dev/null && alias du='dust'
 
     # Abbrs
-    abbr lg 'lazygit'
+    abbr gu 'gitui'
+    abbr lg 'gitui'
     abbr gd 'git diff'
     abbr ga 'git add .'
     abbr gc 'git commit -am'
@@ -31,6 +36,13 @@ if status is-interactive
     abbr ll 'ls -l'
     abbr la 'ls -a'
     abbr lla 'ls -la'
+
+    # Utilities & Editors
+    abbr y 'yazi'
+    abbr btm 'bottom'
+    abbr hx 'helix'
+    abbr nv 'nvim'
+    abbr zd 'zeditor'
 
     # Custom colours
     cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
